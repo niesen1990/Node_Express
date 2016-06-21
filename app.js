@@ -25,7 +25,12 @@ app.get('/', function (req, res) {
 var fortunes = [
     'meizu',
     'xiaomi',
-    'huawei'
+    'huawei',
+    'oppo',
+    'lenovo',
+    'huasuo',
+    'apple',
+    'htc'
 ];
 app.get('/about', function (req, res) {
     var randomFortunes = fortunes[Math.floor(Math.random() * fortunes.length)];
